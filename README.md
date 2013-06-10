@@ -33,12 +33,14 @@ Be warned it is a massive download (174 MB):
 
         $ sudo apt-get install qt-sdk
 
-- Dictionaries
+Dictionaries
 * Two dictionary files are attached in this project in case Ubuntu or whatever OS you’re running the program on doesn’t have them installed.
 * If you’re using Ubuntu and you have the dictionary files installed you can initialize them with the following commands:
 
         $ Dictionary myAmericanEnglishDictionary(QString(“/usr/share/dict/American-english”));
         $ Dictionary myBritishEnglishDictionary(QString(“/usr/share/dict/British-english”));
+
+* If you can't find the dictionaries I attached two in the Dictionaries folder
 
 INSTRUCTIONS:
 =======================================
@@ -54,4 +56,6 @@ directory.
 the quick access toolbar 
 * Once the file has been loaded the GUI's interface should be 
 pretty straight forward.
+* To run the project enter the folling command
+* 		$ ./HW3_Dagres_James
 
